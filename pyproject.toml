@@ -5,7 +5,6 @@ authors = [
 name = "brepdgt"
 version = "0.1.0"
 description = "B-rep diffusion with SCEA and Dynamic Tanh DiT blocks"
-readme = "README.md"
 requires-python = ">=3.9,<3.10"  # for installing pymesh required in https://github.com/princeton-vl/DPVO_Docker/issues/7
 classifiers = [
     "Programming Language :: Python :: 3",
