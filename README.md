@@ -17,47 +17,18 @@ The proposed components are isolated in
 `src/brepdgt/models/layers/dyt.py`, and are integrated by
 `BRepDGTBlock`.
 
-## Release scope
+## Installation
 
-This is a **code-only research release**. It contains the model implementation,
-geometry pipeline, and component-level tests. It intentionally does not
-include:
+Environment setup is described in
+[docs/installation.md](docs/installation.md).
 
-- pretrained checkpoints;
-- processed datasets or generated samples;
-- paper-specific training configuration files;
-- exact end-to-end training and evaluation recipes.
+## Tests
 
-The omitted artifacts are not required to inspect the proposed SCEA and DyT
-implementation. The repository does not claim one-command reproduction of the
-paper's numerical results.
-
-Basic environment setup is described in
-[docs/installation.md](docs/installation.md). The core tests can be run with:
+Run the component tests with:
 
 ```bash
 PYTHONPATH=src python -m unittest -v tests/test_brepdgt_layers.py
 ```
-
-## Acknowledgements and third-party code
-
-This repository includes MIT-licensed components from
-[BRepDiff](https://github.com/brepdiff/brepdiff). The corresponding copyright
-and license notices are retained in [LICENSE](LICENSE) and [NOTICE](NOTICE).
-Please cite the related paper when using those components:
-
-```bibtex
-@inproceedings{lee2025brepdiff,
-  title={BRepDiff: Single-Stage B-rep Diffusion Model},
-  author={Lee, Mingi and Zhang, Dongsu and Jambon, Cl{\'e}ment and Kim, Young Min},
-  booktitle={SIGGRAPH Conference Papers},
-  year={2025},
-  doi={10.1145/3721238.3730698}
-}
-```
-
-Please also cite the BRepDGT paper when its final bibliographic record is
-available.
 
 ## License
 
