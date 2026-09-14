@@ -1,14 +1,14 @@
 BRepDGT
 Copyright (c) 2026 BRepDGT contributors
 
-This software contains source code derived from the BRepDiff project:
+This software includes MIT-licensed components from the BRepDiff project:
 https://github.com/brepdiff/brepdiff
 
 BRepDiff copyright (c) 2024 Dongsu Zhang and contributors.
-The inherited and modified portions are distributed under the MIT License
+Those portions are distributed under the MIT License
 included in this repository.
 
-BRepDGT-specific additions include Shared Cross-head Efficient Attention
+BRepDGT additions include Shared Cross-head Efficient Attention
 (SCEA), Dynamic Tanh (DyT) integration, and the corresponding model branding
 and documentation. Third-party dependencies and adapted components retain
 their respective notices and licenses.

@@ -39,14 +39,12 @@ Basic environment setup is described in
 PYTHONPATH=src python -m unittest -v tests/test_brepdgt_layers.py
 ```
 
-## Attribution
+## Acknowledgements and third-party code
 
-This repository is a research derivative of
-[BRepDiff](https://github.com/brepdiff/brepdiff) by Mingi Lee, Dongsu Zhang,
-Clément Jambon, and Young Min Kim. The inherited single-stage generation,
-masked-UV-grid representation, training, evaluation, viewer, and
-postprocessing code remains under its MIT license. Please cite the original
-paper when using those inherited components:
+This repository includes MIT-licensed components from
+[BRepDiff](https://github.com/brepdiff/brepdiff). The corresponding copyright
+and license notices are retained in [LICENSE](LICENSE) and [NOTICE](NOTICE).
+Please cite the related paper when using those components:
 
 ```bibtex
 @inproceedings{lee2025brepdiff,
