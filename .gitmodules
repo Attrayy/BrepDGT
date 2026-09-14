@@ -1,0 +1,9 @@
+[submodule "deps/PoissonRecon"]
+	path = deps/PoissonRecon
+	url = https://github.com/mkazhdan/PoissonRecon
+[submodule "deps/PyMesh"]
+	path = deps/PyMesh
+	url = https://github.com/PyMesh/PyMesh
+[submodule "deps/fast-transformers"]
+	path = deps/fast-transformers
+	url = https://github.com/idiap/fast-transformers
